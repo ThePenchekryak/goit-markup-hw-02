@@ -4,67 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Студия</title>
   </head>
   <body>
     <!-- Шапка сторінки -->
-    <header>
-      <nav>
-        <a href="" lang="en"><span>Web</span>Studio</a>
+    <header class="header">
+      <nav class="header-nav">
+        <a class="logo link" href="" lang="en"><span>Web</span>Studio</a>
 
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="menu list">
+          <li class="menu-item"><a class="menu-link link" href="">Студия</a></li>
+          <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Портфолио</a></li>
+          <li class="menu-item"><a class="menu-link link" href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contact list">
+        <li class="contact-item">
+          <a class="contact-number link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="contact-item">
+          <a class="contact-mail link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
 
     <main>
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <section class="hero">
+        <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="modal-btn" type="button">Заказать услугу</button>
       </section>
 
-      <section>
+      <section class="features section-title">
         <h2 hidden>Особенности</h2>
-        <ul>
-          <li>
+        <ul class="features-list list">
+          <li class="feature-item">
             <h3>Внимание к деталям</h3>
             <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
           </li>
-          <li>
+          <li class="feature-item">
             <h3>Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="feature-item">
             <h3>Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="feature-item">
             <h3>Современные технологии</h3>
             <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
           </li>
         </ul>
       </section>
 
-      <section>
+      <section class="activity section-title">
         <h2>Чем мы занимаемся</h2>
-        <ul>
-          <li><img src="./images/body/layout.jpg" alt="Верстка" width="370" /></li>
-          <li><img src="./images/body/design.jpg" alt="Дизайн" width="370" /></li>
-          <li>
+        <ul class="activity-list list">
+          <li class="activity-item">
+            <img src="./images/index/layout.jpg" alt="Верстка" width="370" />
+          </li>
+          <li class="activity-item">
+            <img src="./images/index/design.jpg" alt="Дизайн" width="370" />
+          </li>
+          <li class="activity-item">
             <img
-              src="./images/body/visual-features.jpg"
+              src="./images/index/visual-features.jpg"
               alt="Оформление внешнего вида"
               width="370"
             />
@@ -72,27 +88,26 @@
         </ul>
       </section>
 
-      <section>
+      <section class="team section-title">
         <h2>Наша команда</h2>
-        <ul>
-          <li>
-            <img src="./images/body/designer-team.jpg" alt="Product Designer" width="270" />
-
+        <ul class="team-list list">
+          <li class="team-item">
+            <img src="./images/index/designer-team.jpg" alt="Product Designer" width="270" />
             <h3>Игорь Демьяненко</h3>
             <p>Product Designer</p>
           </li>
-          <li>
-            <img src="./images/body/frontend-team.jpg" alt="Frontend Developer" width="270" />
+          <li class="team-item">
+            <img src="./images/index/frontend-team.jpg" alt="Frontend Developer" width="270" />
             <h3>Ольга Репина</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
-            <img src="./images/body/marketing-team.jpg" alt="Marketing" width="270" />
+          <li class="team-item">
+            <img src="./images/index/marketing-team.jpg" alt="Marketing" width="270" />
             <h3>Николай Тарасов</h3>
             <p>Marketing</p>
           </li>
-          <li>
-            <img src="./images/body/ui-team.jpg" alt="UI Designer" width="270" />
+          <li class="team-item">
+            <img src="./images/index/ui-team.jpg" alt="UI Designer" width="270" />
             <h3>Михаил Ермаков</h3>
             <p>UI Designer</p>
           </li>
@@ -100,13 +115,17 @@
       </section>
     </main>
 
-    <footer>
-      <a href="" lang="en"><span>Web</span>Studio</a>
+    <footer class="footer">
+      <a class="logo link" href="" lang="en"><span>Web</span>Studio</a>
       <address>
-        <ul>
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <ul class="contact list">
+          <li class="contact-item"><span>г. Киев, пр-т Леси Украинки, 26</span></li>
+          <li class="contact-item">
+            <a class="contact-mail link" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="contact-item">
+            <a class="contact-number link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>

@@ -1,0 +1,216 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --background-light: #e5e5e5;
+  --background-twilight: #f5f4fa;
+  --background-dark: rgba(47, 48, 58, 1);
+
+  --main-title-color: #ffffff;
+  --secondary-title-color: #212121;
+  --description-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--secondary-title-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ========= HEADER =========*/
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  color: inherit;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo > span {
+  color: #2196f3;
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: inherit;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-number,
+.contact-mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--description-color);
+}
+
+.contact-number:hover,
+.contact-number:focus,
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--accent-color);
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.modal-btn:focus,
+.modal-btn:hover {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* ========= /HEADER =========*/
+
+/* ========= index.html =========*/
+
+/* ========= HERO =========*/
+.hero {
+  background-color: var(--background-dark);
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--main-title-color);
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* ========= /HERO =========*/
+
+/* ========= FEATURES =========*/
+.features {
+  background-color: var(--background-light);
+}
+
+.feature-item > h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.feature-item > p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+/* ========= /FEATURES =========*/
+
+/* ========= ACTIVITY =========*/
+.activity {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  background-color: var(--background-light);
+}
+
+.activity > h2 {
+  text-align: center;
+}
+/* ========= /ACTIVITY =========*/
+
+/* ========= TEAM =========*/
+.team {
+  background-color: rgba(245, 244, 250, 1);
+}
+
+.team > h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-item > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+
+  letter-spacing: 0.03em;
+}
+
+.team-item > p {
+  color: var(--secondary-title-color);
+}
+/* ========= /TEAM =========*/
+
+/* ========= FOOTER =========*/
+.footer {
+  background-color: var(--background-dark);
+}
+.footer > .logo {
+  color: #ffffff;
+}
+
+.contact-item {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-item > span {
+  color: #ffffff;
+}
+/* ========= /FOOTER =========*/
+
+/* ========= /index.html =========*/
+
+/* ========= portfolio.html =========*/
+
+/* ========= FILTERS =========*/
+.filter-btn {
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  color: var(--secondary-title-color);
+  background-color: var(--background-twilight);
+}
+
+.filter-btn:focus,
+.filter-btn:hover {
+  background: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+/* ========= /FILTERS =========*/
+
+/* ========= /portfolio.html =========*/
