@@ -1,8 +1,7 @@
 :root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
-  --background-light: #e5e5e5;
-  --background-twilight: #f5f4fa;
+  --background-light: #f5f4fa;
   --background-dark: rgba(47, 48, 58, 1);
 
   --main-title-color: #ffffff;
@@ -51,7 +50,6 @@ body {
 
 .contact-number,
 .contact-mail {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -176,6 +174,10 @@ body {
   color: #ffffff;
 }
 
+address {
+  font-style: normal;
+}
+
 .contact-item {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -201,7 +203,7 @@ body {
   cursor: pointer;
 
   color: var(--secondary-title-color);
-  background-color: var(--background-twilight);
+  background-color: var(--background-light);
 }
 
 .filter-btn:focus,
